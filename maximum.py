@@ -1,7 +1,7 @@
 a=[]
 x=0
 max=0
-n=25
+n=int(raw_input())
 while(x!=n):
 	b=int(raw_input())
 	a.append(b)

@@ -1,5 +1,6 @@
+n=int(raw_input())
 x=0
-while(x!=5):
+while(x!=n):
 	print("*****")
 	x+=1
 	print("\n")

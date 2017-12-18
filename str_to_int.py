@@ -3,6 +3,6 @@ try:
 	if(int(string)>0):
 		print int(string)
 	else:
-		print "cannot convert to integer"
+		print "invalid"
 except:
-	print "cannot convert to integer"
+	print "invalid"

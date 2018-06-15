@@ -1,6 +1,7 @@
 try:
  n=int(input())
  l=[]
+ f=0
  l1=[]
  s=str(input())
  l=s.split(" ")

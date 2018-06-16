@@ -5,7 +5,7 @@ try:
  f=0
  e=0
  while(e!=n and f!=1):
-  for i in range(e+1,n):
+  for i in range(e+1,len(l)):
    if(l[e]==l[i]):
     x=l[e]
     f=1

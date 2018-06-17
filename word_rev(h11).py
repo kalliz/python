@@ -1,7 +1,6 @@
 try:
  s=str(input())
  l=s.split(" ")
- l.sort()
  st=""
  c=0
  for i in l:

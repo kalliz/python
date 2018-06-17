@@ -1,0 +1,19 @@
+try:
+ s=str(input())
+ l=list(s)
+ e=0
+ i=len(l)-1
+ f=0
+ while(e!=len(l)/2):
+  if(str(l[e])==str(l[i])):
+   e+=1
+   i-=1
+  else:
+   f=1
+   break
+ if(f!=1):
+  print("YES")
+ else:
+  print("NO")
+except:
+ print("Invalid")
